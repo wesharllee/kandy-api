@@ -1,0 +1,115 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "address": "123 San Bernadino Ave, Paris, TX, 78345",
+            "sqFt": 900
+        },
+        {
+            "id": 2,
+            "address": "321 San Sabas Ave, Nashville, TN, 37205",
+            "sqFt": 1000
+        },
+        {
+            "id": 3,
+            "address": "132 San Fernando Ave, New York, NY, 12345",
+            "sqFt": 90000000
+        },
+        {
+            "id": 4,
+            "address": "213 Pickle St, Los Angeles, CA, 99212",
+            "sqFt": 4
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "John Mulaney",
+            "email": "tiredchild@gmail.com"
+        },
+        {
+            "id": 2,
+            "name": "Jerry Seinfeld",
+            "email": "whatsthedealwith@gmail.com"
+        },
+        {
+            "id": 3,
+            "name": "Mitch Hedberg",
+            "email": "escalatorisstairs@aol.com"
+        },
+        {
+            "id": 4,
+            "name": "Bo Burnham",
+            "email": "pandering@yahoo.com"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "userId": 1,
+            "startDate": "12/25/2021",
+            "payRate": 450000,
+            "storeId": 3
+        },
+        {
+            "id": 1,
+            "userId": 4,
+            "startDate": "12/26/2021",
+            "payRate": 45,
+            "storeId": 5
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "loyaltyNumber": 10000,
+            "userId": 2
+        },
+        {
+            "id": 2,
+            "loyaltyNumber": 20000,
+            "userId": 3
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Beteguese Beetle-Juice",
+            "typeId": 2,
+            "price": 0.99
+        },
+        {
+            "id": 2,
+            "name": "Chocolate Bars",
+            "typeId": 3,
+            "price": 1.99
+        },
+        {
+            "id": 3,
+            "name": "Star Clusters",
+            "typeId": 2,
+            "price": 4.99
+        },
+        {
+            "id": 4,
+            "name": "Gummy Bears",
+            "typeId": 1,
+            "price": 4.99
+        }
+    ],
+    "productsType": [
+        { 
+            "id": 1,
+            "typeName": "Hasboro"
+        },
+        {
+            "id": 2,
+            "typeName": "InterGalactic Planetary"
+        },
+        {
+            "id": 3,
+            "typeName": "Snick-hers"
+        }
+    ]
+
+}
